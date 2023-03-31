@@ -1,0 +1,247 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Missing Persons</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">A Free Bootstrap Business Theme</span>
+                <span class="site-heading-lower">Business Casual</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url 'index' %}">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url 'about' %}">About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url 'act' %}">Act</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url 'contact' %}">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section clearfix">
+            <div class="container">
+                <div class="intro">
+                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'assets/img/sale.jpg' %}" alt="..." />
+                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">Human trafficking</span>
+                            <span class="section-heading-lower">These children need us</span>
+                        </h2>
+                        <p class="mb-3">Input info about human trafficking from articles that prof anderson gave us links to</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h4 style="margin-left: auto; margin-right: auto; text-align: center; color: burlywood;">Missing Persons Include:</h4>
+        <table class="table table-bordered table-hover table-condensed" style="color: blanchedalmond; text-align: center; width: 75%; margin-left: auto; margin-right: auto;">
+            <thead style="color: burlywood"><tr><th title="Field #1">Date Missing</th>
+            <th title="Field #2">Last Name</th>
+            <th title="Field #3">First Name</th>
+            <th title="Field #4">Age At Missing</th>
+            <th title="Field #5">City</th>
+            <th title="Field #6">State</th>
+            <th title="Field #7">Gender</th>
+            <th title="Field #8">Race</th>
+            </tr></thead>
+            <tbody><tr>
+            <td>10/30/2009</td>
+            <td>Sharmarice</td>
+            <td>Halima</td>
+            <td align="center">14</td>
+            <td>Granger</td>
+            <td>UT</td>
+            <td>F</td>
+            <td>W</td>
+            </tr>
+            <tr>
+            <td>10/16/2015</td>
+            <td>Martinez</td>
+            <td>Kimberly</td>
+            <td align="center">16</td>
+            <td>West Valley City</td>
+            <td>UT</td>
+            <td>F</td>
+            <td>M</td>
+            </tr>
+            <tr>
+            <td>07/23/2004</td>
+            <td>Gomez</td>
+            <td>Brenda</td>
+            <td align="center">3</td>
+            <td>Logan</td>
+            <td>UT</td>
+            <td>F</td>
+            <td>H</td>
+            </tr>
+            <tr>
+            <td>05/25/2003</td>
+            <td>Bishop</td>
+            <td>Acacia</td>
+            <td align="center">1</td>
+            <td>Salt Lake City</td>
+            <td>UT</td>
+            <td>F</td>
+            <td>W</td>
+            </tr>
+            <tr>
+            <td>08/03/2020</td>
+            <td>Salazar</td>
+            <td>Maria</td>
+            <td align="center">14</td>
+            <td>Snowville</td>
+            <td>UT</td>
+            <td>F</td>
+            <td>H</td>
+            </tr>
+            <tr>
+            <td>04/09/2020</td>
+            <td>Hernandez-Soto</td>
+            <td>Peggy</td>
+            <td align="center">6</td>
+            <td>Ogden</td>
+            <td>UT</td>
+            <td>F</td>
+            <td>H</td>
+            </tr>
+            <tr>
+            <td>06/24/2021</td>
+            <td>Jimenez</td>
+            <td>Lucero</td>
+            <td align="center">14</td>
+            <td>West Valley City</td>
+            <td>UT</td>
+            <td>F</td>
+            <td>H</td>
+            </tr>
+            <tr>
+            <td>11/08/2013</td>
+            <td>Colindres-Avila</td>
+            <td>Yuris</td>
+            <td align="center">17</td>
+            <td>West Valley City</td>
+            <td>UT</td>
+            <td>F</td>
+            <td>M</td>
+            </tr>
+            <tr>
+            <td>07/15/2021</td>
+            <td>Harris</td>
+            <td>Kandis</td>
+            <td align="center">16</td>
+            <td>Salt Lake City</td>
+            <td>UT</td>
+            <td>F</td>
+            <td>W</td>
+            </tr>
+            <tr>
+            <td>07/30/2006</td>
+            <td>Seal</td>
+            <td>Jaydan</td>
+            <td align="center">1</td>
+            <td>Garleys Wash</td>
+            <td>UT</td>
+            <td>M</td>
+            <td>W</td>
+            </tr>
+            <tr>
+            <td>06/13/2018</td>
+            <td>Lizarraga</td>
+            <td>Jose</td>
+            <td align="center">13</td>
+            <td>West Valley City</td>
+            <td>UT</td>
+            <td>M</td>
+            <td>H</td>
+            </tr>
+            <tr>
+            <td>04/23/2020</td>
+            <td>Cortez Trujillo</td>
+            <td>Eztli</td>
+            <td align="center">21</td>
+            <td>North Ogden</td>
+            <td>UT</td>
+            <td>M</td>
+            <td>H</td>
+            </tr>
+            <tr>
+            <td>10/25/2017</td>
+            <td>Fowles</td>
+            <td>Juan</td>
+            <td align="center">15</td>
+            <td>Lehi</td>
+            <td>UT</td>
+            <td>M</td>
+            <td>M</td>
+            </tr>
+            <tr>
+            <td>08/20/2012</td>
+            <td>Garcia</td>
+            <td>Isai</td>
+            <td align="center">17</td>
+            <td>West Valley City</td>
+            <td>UT</td>
+            <td>M</td>
+            <td>M</td>
+            </tr>
+            <tr>
+            <td>09/01/2015</td>
+            <td>Smith</td>
+            <td>Macin</td>
+            <td align="center">17</td>
+            <td>St. George</td>
+            <td>UT</td>
+            <td>M</td>
+            <td>W</td>
+            </tr>
+            <tr>
+            <td>01/26/2006</td>
+            <td>Sisco-Ramirez</td>
+            <td>Jose</td>
+            <td align="center">4</td>
+            <td>West Valley City</td>
+            <td>UT</td>
+            <td>M</td>
+            <td>M</td>
+            </tr>
+            </tbody></table>
+        <section class="page-section cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <div class="cta-inner bg-faded text-center rounded">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">Input</span>
+                                <span class="section-heading-lower">Some more info</span>
+                            </h2>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'js/scripts.js' %}"></script>
+    </body>
+</html>
